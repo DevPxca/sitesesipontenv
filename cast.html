@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponte Nova | Explora</title>
+    <link rel="stylesheet" href="cast.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <script src="menu.js" defer></script>
+    <script src="mostrar1.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div id="title">
+            <h1>Ponte Nova</h1>
+            <h1>NovaCast</h1>
+        </div>
+        <ul id="nav-desk">
+            <a href="index.html"><li>Início</li></a>
+            <a href="city.html"><li>CityTour</li></a>
+        </ul>
+        <div class="btn-abrir-menu" id="btn-abrir">
+            <i class="bi bi-house"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+            <nav>
+            <ul id="nav-mob">
+                <a href="index.html"><li>Início</li></a>
+                <a href="city.html"><li>CityTour</li></a>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <aside class="separação">
+            <h2>Ouça agora nosso PodCast!</h2>
+            <div class="player">
+                <audio id="player" src=""></audio>
+                <div class="controls">
+                <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
+                </div>
+                <div class="footer">
+                <div class="progress-bar">
+                <div class="progress"></div>
+                <div class="time">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+                </div>
+                </div>
+                </div>
+              <script type="module" src="script.js"></script>
+        </aside>
+        <article class="separaçãodireita">
+            <h2>Acompanhe a versão escrita!</h2>
+            <div class="textbox" id="textbox">
+            <p>Podcast: “Ponte Nova: Raízes Históricas e Desenvolvimento Contemporâneo”</p>
+            <p class="subdivisão">* Introdução *</p>
+            <p>“Bem-vindos ao Sesicast.  Hoje, vamos falar a história e o desenvolvimento da cidade de Ponte Nova, em Minas Gerais.”</p>
+            <p> “Ponte Nova, tem origens do povo indígena e evoluiu ao longo dos séculos até se tornar uma grande cidade .”</p>
+            <p class="subdivisão">* Raízes Históricas *</p>
+            <p>"E sobre a colonização?"</p>
+            <p>“A Capela de São Sebastião e Almas marcou o início da história de Ponte Nova.”</p>
+            <p>“Mudança de nome e crescimento da vila ao longo dos séculos XVIII e XIX.”</p>
+            <p class="subdivisão">* A Era Açucareira *</p>
+            <p>“Expansão da lavoura de cana de açúcar e seu impacto no desenvolvimento local.”</p>
+            <p>“A chegada da ferrovia impulsionou os mercados de exportação.”</p>
+            <p class="subdivisão">* Como foi a industrialização na cidade? *</p>
+            <p>“ A industrialização foi marcada pelas uzinas de álcool e de açúcar.”</p>
+            <p class="subdivisão">* Desenvolvimento Contemporâneo *</p>
+            <p>“Hoje em dia a cidade esta crescendo, a industria fez parte do crescimento.”</p>
+            <p>“A cidade investe muito em saúde, turismo e educação."</p>
+            <p class="subdivisão">* Turismo e Cultura *</p>
+            <p>“ Ponte Nova participa de vários circuitos turísticos, tanto no nacional quanto no estadual."</p>
+            <p class="subdivisão">* Conclusão *</p>
+            <p>“ Hoje falamos sobre a história de Ponte Nova, desde o princípio até os dias atuais."</p>
+            <p>“Obrigado por nos ouvir!"</p>
+            </div>
+            <div class="btn-ler" id="btn-ler">
+                <i class="bi bi-book"></i>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
